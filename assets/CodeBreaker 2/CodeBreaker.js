@@ -85,6 +85,7 @@ function gameStart() {
         if (richtigeStelle == 3) {
             document.getElementById("Frage").innerHTML = "Du hast gewonnen. Die Lösung war: " + zahl1 + " " + zahl2 + " " + zahl3;
             document.getElementById("next").removeEventListener("click", nextRound);
+            document.getElementById("hint").innerHTML = "";
         }
         else if (meinZaehler > gameOver) {
             document.getElementById("Frage").innerHTML = "Du hast den Code nicht geknackt. Die Lösung war: " + zahl1 + " " + zahl2 + " " + zahl3;
