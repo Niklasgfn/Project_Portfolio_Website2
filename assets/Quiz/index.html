@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="neueRunde" onclick="starteNeueRunde();">
+        <p id="Frage"> Willkommen zum Java-Quiz</p>
+        <p id="Antworten">Klicke hier, um dein Quiz zu starten.</p>
+        <p id="hint"> </p>
+    </div>
+    <div class="auswahlen">
+        <p id="1" class="auswahl" onclick="tippeButton(this);">1</p>
+        <p id="2" class="auswahl" onclick="tippeButton(this);">2</p>
+        <p id="3" class="auswahl" onclick="tippeButton(this);">3</p>
+    </div>
+    <div class="control">
+        <p id="reset" class="auswahlControl" onclick="location.reload();">Reset</p>
+        <p id="next" class="auswahlControl" onclick="starteNeueRunde();">Next</p>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>

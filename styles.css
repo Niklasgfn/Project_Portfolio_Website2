@@ -1,0 +1,89 @@
+:root{
+    background: linear-gradient(to top, #09f7ff 0%, #00f1e1 50%, #c3ebfc 100%);;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    object-fit: contain;
+}
+
+header{
+    position:relative;
+    margin: 0%;
+    width: 100%;
+    background-color: #1d4662;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000a0;
+    font-size: 40pt;
+}
+
+section{
+    position: relative;
+    margin: 0%;
+}
+
+.projekte{
+    align-items: inline;
+    border: solid;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+img[alt="birthdaypreview"]{
+    width:100%;
+    object-fit: contain;
+}
+
+img[alt="bestgamespreview"]{
+    width:100%;
+    object-fit: contain;
+}
+
+img[alt="memespreview"]{
+    width: 100%;
+    object-fit: contain;
+}
+
+img[alt="schachpreview"]{
+    width: 100%;
+    object-fit: contain;
+}
+
+img[alt="quizpreview"]{
+    width: 100%;
+    object-fit: contain;
+}
+
+.button{
+    background-color: #1d4662;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#about{
+    font-family:cursive;
+    font-style:oblique;
+    text-decoration: none;
+    color: rgb(16, 16, 45);
+}
+
+#contact{
+    font-family:cursive;
+    font-style:oblique;
+    text-decoration: none;
+    color: rgb(16, 16, 45);
+}
+
+.table{
+    text-align: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-spacing: 5rem;
+    border-collapse: separate;
+}

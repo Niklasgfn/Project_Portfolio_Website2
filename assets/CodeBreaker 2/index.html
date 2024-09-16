@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="neueRunde" id="mainScreen" onclick=codeBreakerStart()>
+        <p id="Frage">🔒 Willkommen zum CodeBreaker 🔒</p>
+        <p id="Antworten">Klicke hier, um den Code zu knacken.</p>
+        <p id="hint"> </p>
+    </div>
+    <div class="auswahlen">
+        <input id="1" type="text" class="auswahl" maxlength="3" placeholder="LOCKED">
+    </div>
+    <div class="control">
+        <p id="reset" class="auswahlControl" onclick="resetGame()">Reset</p>
+        <p id="next" class="auswahlControl" onclick="storeNumber()">Next</p>
+    </div>
+
+    <script src="./CodeBreaker.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+}
+
+.buttons{
+    background-color: #1d4662;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button{
+    text-decoration: none;
+    text-decoration: none;
+    color: red;
+}

@@ -1,0 +1,87 @@
+.auswahl {
+    float: left; position: relative;
+    background: #d0d4eb;
+    border: solid;
+    height: 120px; width: 100px;
+    margin: 20px; padding: 10px;
+    font-size: 100px;
+    box-shadow: 15px 15px 15px grey;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(./assets/7227553.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.neueRunde{
+    font-size: 20px;
+    background: #bbd1f4; border-radius: 70px;
+    width: 750px; height: 200px;
+    border: 20px solid #085e94;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: inset 20px 10px 15px rgb(56, 104, 152);
+    cursor: pointer;
+}
+
+.auswahlen{
+    width: 500px; height: 200px; margin: 1px auto; text-align: center;
+}
+
+#hint{
+    font-size: 15px;
+}
+.control{
+    width: 500px; height: 200px; margin: 1px auto; text-align: center;
+}
+
+.auswahlControl1 {
+    position: relative;
+    text-align: center;
+    background: #d0d4eb;
+    border: solid;
+    height: 70px; width: 70px;
+    margin: 20px; padding: 10px;
+    font-size: 30px;
+    box-shadow: 15px 15px 15px grey;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.auswahlControl {
+    position: relative;
+    text-align: center;
+    background: #d0d4eb;
+    border: solid;
+    height: 70px; width: 70px;
+    margin: 20px; padding: 10px;
+    font-size: 25px;
+    box-shadow: 15px 15px 15px grey;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#reset:hover {
+    background-color: rgb(58, 100, 4);
+}
+
+#next:hover{
+    background-color: rgb(59, 2, 204);
+}
+
+#next{
+    float: right;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#reset{
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
